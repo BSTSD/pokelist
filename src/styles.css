@@ -1,0 +1,69 @@
+/* styles.css */
+
+body {
+    background-color: #f0f0f0; /* Fondo gris claro como el de la hierba */
+    font-family: 'Press Start 2P', cursive; /* Fuente similar a los juegos */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    color: #000;
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .pokemon-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adaptación de la grilla */
+    gap: 20px;
+  }
+  
+  .pokemon-item {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pokemon-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  /* Estilos para el botón "Cargar Más" */
+  .load-more-button {
+    background-color: #f08080; /* Color rojo similar a la pokeball */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .load-more-button:hover {
+    background-color: #ff5733; /* Rojo más intenso */
+  }
+  
+  /* Estilos adicionales (opcional) */
+  /* Puedes agregar estilos para diferentes tipos de Pokémon (fuego, agua, etc.) */
+  /* O para la animación de "Cargando..." */
+  
+  /* Agrega la fuente "Press Start 2P" a tu proyecto */
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
