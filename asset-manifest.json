@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pokelist/static/css/main.279df8d4.css",
+    "main.js": "/pokelist/static/js/main.741252d6.js",
+    "index.html": "/pokelist/index.html",
+    "main.279df8d4.css.map": "/pokelist/static/css/main.279df8d4.css.map",
+    "main.741252d6.js.map": "/pokelist/static/js/main.741252d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.279df8d4.css",
+    "static/js/main.741252d6.js"
+  ]
+}
